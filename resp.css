@@ -3,7 +3,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 590px;
+        width: 890px;
+        gap: 2rem;
     }
     .right-nav {
         display: none;
@@ -11,6 +12,8 @@
     section {
         height: 860px;
         width: 590px;
+        box-sizing: border-box;
+        min-height: fit-content;
     }
     .profile-container,
     .about-details,
@@ -22,7 +25,11 @@
     .more-details {
         width: 500px;
     }
+    #contact {
+        height: 860px;
+    }
     footer {
+        width: 890px;
         display: flex;
         flex-direction: column;
         justify-content: center;
