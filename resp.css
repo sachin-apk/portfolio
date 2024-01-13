@@ -22,6 +22,12 @@
         flex-direction: column;
         gap: 2rem;
     }
+    #profile i,
+    #about i,
+    #skills i,
+    #contact i{
+        display: none;
+    }
     .more-details {
         width: 500px;
     }
