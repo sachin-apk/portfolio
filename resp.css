@@ -1,44 +1,135 @@
-@media only screen and (max-width:605px) {
-    .nav {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 890px;
-        gap: 2rem;
-    }
-    .right-nav {
-        display: none;
-    }
-    section {
-        height: 860px;
-        width: 590px;
-        box-sizing: border-box;
-        min-height: fit-content;
-    }
-    .profile-container,
-    .about-details,
-    .skills-details {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-    }
+@media only screen and (max-width: 1080px) and (max-height: 2400px) {
     #profile i,
     #about i,
     #skills i,
-    #contact i{
+    #contact i {
         display: none;
     }
-    .more-details {
-        width: 500px;
-    }
-    #contact {
-        height: 860px;
-    }
-    footer {
-        width: 890px;
-        display: flex;
+    .nav {
         flex-direction: column;
-        justify-content: center;
+        height: auto;
+    }
+    .right-nav p {
+        font-size: 20px;
+        margin: 20px;
+    }
+    .left-nav ul {
+        font-size: 20px;
+        gap: 15px;
+    }
+    section {
+        margin: 0 2rem;
+    }
+    .profile-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .image-container img {
+        width: 250px;
+        height: 250px;
+    }
+    .details h1 {
+        font-size: 30px;
+    }
+    .details p {
+        font-size: 20px;
+    }
+    .about-container h1,
+    .skills-container h1,
+    .contact-container h1 {
+        font-size: 40px;
+    }
+    .about-container p,
+    .skills-container p,
+    .contact-container p {
+        font-size: 16px;
+    }
+    .about-details,
+    .skills-details {
+        flex-direction: column;
         align-items: center;
+    }
+    .experience,
+    .Education,
+    .web-skills,
+    .prog-skills {
+        width: 90%;
+        height: auto;
+    }
+    .mail p a,
+    .LinkedIn p a {
+        font-size: 20px;
+    }
+    footer p {
+        font-size: 14px;
+    }
+}
+
+
+/* Additional media query for smaller devices */
+
+@media only screen and (max-width: 768px) {
+    .nav {
+        font-size: 18px;
+    }
+    .right-nav p {
+        font-size: 18px;
+    }
+    .left-nav ul {
+        font-size: 18px;
+    }
+    section {
+        margin: 0 1rem;
+    }
+    .profile-container {
+        gap: 1rem;
+    }
+    .image-container img {
+        width: 200px;
+        height: 200px;
+    }
+    .details h1 {
+        font-size: 24px;
+    }
+    .details p {
+        font-size: 18px;
+    }
+    .about-container h1,
+    .skills-container h1,
+    .contact-container h1 {
+        font-size: 32px;
+    }
+    .about-container p,
+    .skills-container p,
+    .contact-container p {
+        font-size: 14px;
+    }
+    .about-details,
+    .skills-details {
+        flex-direction: column;
+        align-items: center;
+    }
+    .experience,
+    .Education,
+    .web-skills,
+    .prog-skills {
+        width: 90%;
+        height: auto;
+    }
+    .mail p a,
+    .LinkedIn p a {
+        font-size: 18px;
+    }
+    footer p {
+        font-size: 12px;
+    }
+    .contact-details {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+    .aero {
+        font-size: 30px;
+        right: 50px;
     }
 }
